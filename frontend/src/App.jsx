@@ -16,6 +16,8 @@ function App() {
 
             <Route path='/' element={<LandingPage />} />
 
+            <Route path='/auth' element={<Authentication />} />
+
         </Routes>
 
       </Router>
